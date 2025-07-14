@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kerala Emergency Alert Dashboard</title>
+</head>
+<body>
+
+  <!-- Scrolling flood alert with red color and large font -->
+  <marquee behavior="scroll" direction="left">
+    <font color="red" size="6">
+      🚨 FLOOD ALERT IN KERALA - STAY INDOORS AND AVOID LOW-LYING AREAS 🚨
+    </font>
+  </marquee>
+
+  <!-- Header with city name and severity level -->
+  <header>
+    <h1>Kerala Emergency Alert Dashboard</h1>
+    <p>Current Emergency Level:</p>
+    <meter value="8" min="0" max="10">8 out of 10</meter>
+  </header>
+
+  <!-- Main emergency alerts -->
+  <main>
+    <article>
+      <h2>Flood Warning</h2>
+      <time datetime="2025-07-14T10:00">July 14, 2025 - 10:00 AM</time>
+      <p>Heavy rains continue to cause rising water levels in major rivers.</p>
+      <strong>Category: Flood</strong>
+
+      <section>
+        <h3>What To Do:</h3>
+        <ul>
+          <li>Stay indoors</li>
+          <li>Avoid low-lying areas</li>
+          <li>Keep emergency kits ready</li>
+        </ul>
+      </section>
+    </article>
+
+    <article>
+      <h2>Landslide Risk</h2>
+      <time datetime="2025-07-13T18:00">July 13, 2025 - 6:00 PM</time>
+      <p>Hilly areas in Idukki and Wayanad are under alert for possible landslides.</p>
+      <strong>Category: Landslide</strong>
+
+      <section>
+        <h3>What To Do:</h3>
+        <ul>
+          <li>Move to safer areas</li>
+          <li>Avoid mountain roads</li>
+          <li>Listen to local authorities</li>
+        </ul>
+      </section>
+    </article>
+
+    <article>
+      <h2>Waterlogging Alert</h2>
+      <time datetime="2025-07-13T15:30">July 13, 2025 - 3:30 PM</time>
+      <p>Major streets in Kochi and Trivandrum are experiencing waterlogging.</p>
+      <strong>Category: Urban Flooding</strong>
+
+      <section>
+        <h3>What To Do:</h3>
+        <ul>
+          <li>Avoid unnecessary travel</li>
+          <li>Use alternate routes</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <!-- Contact info and citizen input -->
+  <aside>
+    <h2>City Contact Information</h2>
+    <ul>
+      <li>Emergency Helpline: 100</li>
+      <li>Flood Control Room: 0484-2361234</li>
+      <li>Nearest Shelter: Govt. School, MG Road, Ernakulam</li>
+    </ul>
+
+    <h3>Report a Local Issue</h3>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="issue">Issue Description:</label><br>
+      <textarea id="issue" name="issue" rows="4" cols="30"></textarea><br><br>
+
+      <input type="checkbox" id="followup" name="followup">
+      <label for="followup">Request a follow-up call</label><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Kerala Disaster Management Authority</p>
+    <p>Date: July 14, 2025</p>
+    <a href="kerala_alert_bulletin.pdf" download>Download Alert Bulletin</a>
+  </footer>
+
+</body>
+</html>
